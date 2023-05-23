@@ -12,7 +12,7 @@ import 'package:mockito/mockito.dart' as _i1;
 // ignore_for_file: comment_references
 // ignore_for_file: unnecessary_parenthesis
 
-class _FakeUint8List extends _i1.Fake implements _i2.Uint8List {}
+class _FakeUint8List extends _i1.Fake {}
 
 class _FakeHiveList<E extends _i3.HiveObject> extends _i1.Fake
     implements _i4.HiveList<E> {}

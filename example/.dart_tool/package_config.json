@@ -5,10 +5,10 @@
       "name": "example",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.10"
+      "languageVersion": "3.0"
     }
   ],
-  "generated": "2021-05-25T07:37:48.385116Z",
+  "generated": "2023-05-23T06:48:48.113459Z",
   "generator": "pub",
-  "generatorVersion": "2.13.0"
+  "generatorVersion": "3.0.0"
 }
