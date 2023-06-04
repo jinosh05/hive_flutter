@@ -9,7 +9,7 @@ import '../mocks.dart';
 void main() {
   group('TimeOfDayAdapter', () {
     test('.read()', () {
-      final time = TimeOfDay(hour: 8, minute: 0);
+      const time = TimeOfDay(hour: 8, minute: 0);
       final BinaryReader binaryReader = MockBinaryReader();
       when(binaryReader.read()).thenReturn(time);
 
@@ -19,7 +19,7 @@ void main() {
     });
 
     test('.write()', () {
-      final time = TimeOfDay(hour: 8, minute: 0);
+      const time = TimeOfDay(hour: 8, minute: 0);
       final BinaryWriter binaryWriter = MockBinaryWriter();
 
       TimeAdapter().write(binaryWriter, time);

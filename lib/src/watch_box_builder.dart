@@ -14,7 +14,7 @@ class WatchBoxBuilder extends StatefulWidget {
   ///
   /// If you specify [watchKeys], the widget only refreshes when a value
   /// associated to a key in [watchKeys] changes.
-  WatchBoxBuilder({
+  const WatchBoxBuilder({
     Key? key,
     required this.box,
     required this.builder,
@@ -31,11 +31,11 @@ class WatchBoxBuilder extends StatefulWidget {
   final List<String>? watchKeys;
 
   @override
-  _WatchBoxBuilderState createState() => _WatchBoxBuilderState();
+  WatchBoxBuilderState createState() => WatchBoxBuilderState();
 }
 
 // ignore: deprecated_member_use_from_same_package
-class _WatchBoxBuilderState extends State<WatchBoxBuilder> {
+class WatchBoxBuilderState extends State<WatchBoxBuilder> {
   @visibleForTesting
   StreamSubscription? subscription;
 
