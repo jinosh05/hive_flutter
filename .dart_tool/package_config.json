@@ -158,6 +158,12 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "flutter_lints",
+      "rootUri": "file:///home/jinosh/.pub-cache/hosted/pub.dev/flutter_lints-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///home/jinosh/Documents/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -216,6 +222,12 @@
       "rootUri": "file:///home/jinosh/.pub-cache/hosted/pub.dev/json_annotation-4.8.1",
       "packageUri": "lib/",
       "languageVersion": "2.19"
+    },
+    {
+      "name": "lints",
+      "rootUri": "file:///home/jinosh/.pub-cache/hosted/pub.dev/lints-2.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "logging",
@@ -300,12 +312,6 @@
       "rootUri": "file:///home/jinosh/.pub-cache/hosted/pub.dev/path_provider_windows-2.1.6",
       "packageUri": "lib/",
       "languageVersion": "2.17"
-    },
-    {
-      "name": "pedantic",
-      "rootUri": "file:///home/jinosh/.pub-cache/hosted/pub.dev/pedantic-1.11.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
     },
     {
       "name": "platform",
@@ -464,7 +470,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-05-23T06:48:21.069315Z",
+  "generated": "2023-06-04T17:06:23.141666Z",
   "generator": "pub",
-  "generatorVersion": "3.0.0"
+  "generatorVersion": "3.0.2"
 }
